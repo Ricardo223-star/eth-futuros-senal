@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#10212b"/>
+      <stop offset=".58" stop-color="#0b0d10"/>
+      <stop offset="1" stop-color="#07080a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".72" cy=".16" r=".56">
+      <stop offset="0" stop-color="#36d27a" stop-opacity=".32"/>
+      <stop offset=".42" stop-color="#6bd3ff" stop-opacity=".11"/>
+      <stop offset="1" stop-color="#0b0d10" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <path d="M0 700 140 642 268 672 410 604 562 640 720 548 890 614 1040 512 1214 574 1360 492 1600 545v455H0Z" fill="#10161c"/>
+  <path d="M0 780 170 730 350 760 540 694 740 736 950 646 1160 704 1370 628 1600 678v322H0Z" fill="#0d1116"/>
+  <g opacity=".62" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M130 620h120l54-80 82 132 84-188 76 136h142" stroke="#36d27a" stroke-width="8"/>
+    <path d="M930 505h98l42-58 70 96 62-146 58 108h148" stroke="#6bd3ff" stroke-width="7" opacity=".8"/>
+    <path d="M260 744h122l48-38 72 62 92-112 76 72h170" stroke="#f0c75d" stroke-width="6" opacity=".58"/>
+  </g>
+  <g opacity=".16" stroke="#f5f7fb">
+    <path d="M0 210h1600"/>
+    <path d="M0 340h1600"/>
+    <path d="M0 470h1600"/>
+    <path d="M260 0v1000"/>
+    <path d="M560 0v1000"/>
+    <path d="M860 0v1000"/>
+    <path d="M1160 0v1000"/>
+    <path d="M1460 0v1000"/>
+  </g>
+</svg>
